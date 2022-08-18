@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cicada-songs"
+version = "0.1.0"
+description = "A summer holiday experiment to find periodicity in recordings of cicadas singing."
+authors = ["Miguel Arbesú <miguelarbesu@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.12"
+pydub = "^0.25.1"
+numpy = "^1.23.2"
+matplotlib = "^3.5.3"
+jupyter = "^1.0.0"
+nbconvert = "^6.5.3"
+ipykernel = "^6.15.1"
+scipy = "^1.9.0"
+ipython = "^8.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
